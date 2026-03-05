@@ -1,0 +1,87 @@
+.background{
+    background-color: black;
+    
+}
+.card{
+    background-color: whitesmoke;
+    max-width: 600px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+   margin: 10rem auto;
+
+    
+}
+
+.card .header{
+   display: flex;
+   justify-content: space-between;
+   
+   
+}
+
+.header h1{
+    font-size: 2rem;
+    color: black;
+    margin-left: 1rem;
+    font-family: "lato", cursive;
+}
+
+.header img{
+    width: 70px;
+    height: 70px;
+  padding: 5px 5px 5px 0;
+}
+
+.body{
+    display: flex;
+    flex-direction: space-between;
+    gap: 3rem;
+    padding: 0.5rem;
+    width: 100%;
+}
+.body .left,
+.body .right{
+    max-width: 300px;
+}
+
+
+.body .left p{
+    font-size: 1.2rem;
+    color: black;
+   margin: 1rem 0;
+    font-family: "lato", cursive;
+    line-height: 1.5;
+}
+
+ input{
+    font-size: 1.2rem ;
+    font-family: "lato", cursive;
+    font-style: italic;
+   padding-top: 0; 
+  margin: 0.5rem 0;
+  border: 0;
+  border-bottom: 1px solid rgb(70, 69, 69);
+   background-color: transparent; 
+}
+  .footer{
+   
+    text-align: center;
+    padding: 0.5rem;
+    margin: 1rem 0 2rem 0;
+   
+}
+
+.footer button{
+    font-size: 1rem;
+    font-family: "lato", cursive;
+    padding: 0.2rem 0.4rem;
+    border: 0;
+    background-color: rgb(162, 161, 161);
+    color: black;
+    cursor: pointer;
+}
+
+
+
+
